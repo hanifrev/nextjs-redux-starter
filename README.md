@@ -1,6 +1,31 @@
-This is a [Next.js](https://nextjs.org/) + Typescript + Redux Toolkit + RTK Query + TailwindCSS starter kit
+## [Next.js](https://nextjs.org/) + Typescript + Redux Toolkit + RTK Query + TailwindCSS starter kit
+
+The Next.js version is 14 and it using App Router. The documentation of this starter kit is on progress, and I will record a video to brief about this starter kit / boilerplate
 
 ## Getting Started
+
+#### Clone this template
+
+1. Click the <b>'Use this template'</b> button above
+2. Use `create-next-app`
+
+```
+pnpm create next-app  -e https://github.com/hanifrev/nextjs-redux-starter
+```
+
+you can use yarn / npx too, it's up to you, but I recommend to using pnpm
+
+#### Installation
+
+```
+pnpm install
+```
+
+#### .env files
+
+Make sure you already create `.env` files on the root of the repo, you can use everything inside `.env.example` as starter
+
+#### Running
 
 First, run the development server:
 
@@ -20,18 +45,9 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
 ## Folder Structure FAQ
 
-I'm gonna explain the folder that might be make you confuse
+I'm gonna explain some folder that might makes you confuse
 
 ### common
 
@@ -50,3 +66,12 @@ The <b>modules</b> directory organizes functionality, components, services, and 
 ### lib
 
 The <b>lib</b> folder centralizes your Redux state management setup, including the store, provider, feature-specific slices/reducers, and of course the services folder. The <b>services</b> folder focuses on API-related functionality, including RTK Query setup for data fetching and API service files for handling HTTP requests.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Learn Redux Toolkit](https://redux-toolkit.js.org/introduction/getting-started)
+- [Learn RTK Query](https://redux-toolkit.js.org/rtk-query/overview)
