@@ -6,7 +6,10 @@ The Next.js version is 14 and it using App Router. The documentation of this sta
 
 #### Clone this template
 
+There's two way to clone this template:
+
 1. Click the <b>'Use this template'</b> button above
+   or
 2. Use `create-next-app`
 
 ```
