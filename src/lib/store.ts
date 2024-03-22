@@ -1,4 +1,4 @@
-import { exampleApi } from '@/services/api';
+import { exampleApi } from '@/lib/services/api';
 import { configureStore } from '@reduxjs/toolkit';
 import { setupListeners } from '@reduxjs/toolkit/query';
 

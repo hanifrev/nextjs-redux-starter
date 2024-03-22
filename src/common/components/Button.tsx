@@ -189,17 +189,3 @@ export const Button: React.FC<ButtonProps> = ({
     </button>
   );
 };
-
-// USAGE EXAMPLE
-
-// <Button
-//   size="medium"
-//   variant="primary"
-//   color="primary"
-//   icon={<AddCircle />}
-//   iconRight
-//   onClick={() => console.log("Button Clicked")}
-//   text="Medium"
-// />
-
-// for icon, you can import from material icons

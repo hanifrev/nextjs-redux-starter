@@ -47,10 +47,6 @@ The <b>common</b> directory houses generic and reusable components, types, and u
 
 The <b>modules</b> directory organizes functionality, components, services, and types (all of which are optional) that are specific to different modules or features of your application. In your actual application, you may have multiple directories under the <b>modules</b> directory, each representing a specific module or feature. However, it's important to note that the components within each module directory are tailored to the functionality or UI of that particular module and may not be directly reusable in other modules.
 
-### redux
+### lib
 
-The <b>redux</b> folder centralizes your Redux state management setup, including the store, provider, and feature-specific slices/reducers.
-
-### services
-
-The <b>services</b> folder focuses on API-related functionality, including RTK Query setup for data fetching and API service files for handling HTTP requests.
+The <b>lib</b> folder centralizes your Redux state management setup, including the store, provider, feature-specific slices/reducers, and of course the services folder. The <b>services</b> folder focuses on API-related functionality, including RTK Query setup for data fetching and API service files for handling HTTP requests.
